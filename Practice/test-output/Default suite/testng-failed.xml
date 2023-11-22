@@ -5,9 +5,9 @@
     <classes>
       <class name="org.prac.testcases.LoginPage">
         <methods>
+          <include name="LoginFunction"/>
           <include name="startingPoint"/>
-          <include name="endingPoint"/>
-          <include name="HomePageTest"/>
+          <include name="LoginCredntialsInvalidAndValidCases"/>
         </methods>
       </class> <!-- org.prac.testcases.LoginPage -->
     </classes>

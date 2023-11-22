@@ -26,7 +26,7 @@ public class LoginPage {
 		login.launchBrowser();
 		
 	}
-//	@AfterTest
+	@AfterTest
 	public void endingPoint() {
 //		login.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
 		login.driver.quit();
