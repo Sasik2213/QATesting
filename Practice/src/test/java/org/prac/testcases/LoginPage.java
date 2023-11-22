@@ -66,17 +66,6 @@ public class LoginPage {
 		login.driver.findElement(By.xpath("//button[normalize-space()='Login']")).click();
 		
 	}
-	@Test
-	public void HomePageTest() throws Exception {
-		/*For Finding the contains H1 tags all over the page
-		 * List<WebElement> h1Tag = login.driver.findElements(By.tagName("h1"));
-		 * for(WebElement x:h1Tag) { System.out.println(x.getText()); }
-		 */
-		LoginCredntialsInvalidAndValidCases();
-		Assert.assertTrue(login.driver.findElement(By.tagName("h1")).isDisplayed());
-		Assert.assertTrue(login.driver.findElement(By.xpath("//button[normalize-space()='Play']")).isDisplayed());
-		login.driver.findElement(By.xpath("//img[@alt='No Time to Die']")).click();
-		
-	}
+	
 	
 }

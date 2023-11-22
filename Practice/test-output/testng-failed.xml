@@ -6,6 +6,7 @@
       <class name="org.prac.testcases.LoginPage">
         <methods>
           <include name="LoginFunction"/>
+          <include name="endingPoint"/>
           <include name="startingPoint"/>
           <include name="LoginCredntialsInvalidAndValidCases"/>
         </methods>
